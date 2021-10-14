@@ -1,0 +1,57 @@
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(41 38 33);
+}
+.nav{
+    justify-content: space-between;
+    display: flex;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    width: 29%;
+    font-size: 15px;
+    padding-left: 82px;
+    margin-left: auto;
+    margin-right: 32px;
+    padding-top: 20px;
+    color: white
+}
+.btn_header{
+    background-color:  crimson;
+    border: 1px solid white;
+    margin-left: 25px
+}
+.btn1_header{
+    background-color: rgb(56, 15, 238);
+    border: 1px solid white;
+}
+.logo{
+    width: 150px;
+    height: 72px;
+}
+
+
+/* ////////////////////////////////// */
+.Adminbtn{
+    background-color: rgb(238, 15, 15);
+    border: 1px solid white;
+    color: white;
+}
+.Managerbtn{
+    background-color: rgb(56, 15, 238);
+    border: 1px solid white;
+    color: white;
+}
+.Userbtn{
+    background-color: rgb(56, 15, 238);
+    border: 1px solid white;
+    color: white;
+}
+.picrole{
+    width: 50px;
+  height: 50px;
+  border-radius: 90px;
+  margin-top: -12px;
+  }

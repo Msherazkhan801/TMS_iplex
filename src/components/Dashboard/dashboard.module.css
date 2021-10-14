@@ -1,0 +1,65 @@
+.dashBoardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 63%;
+  width: 100%;
+  margin: 0 auto;
+}
+.dashBoard {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.aside{
+  width: 22%;
+  height: 560px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  margin-right: auto;
+  text-align: center;
+  
+
+}
+.dashboard_body{
+  color: rgb(0, 0, 0);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  /* background-image: url('https://images.unsplash.com/photo-1633086218123-e368e0e71443?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VkJTIwZGFyayUyMHRlY2hub2xvZ3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'); */
+}
+.User_component{
+  margin-right: 419px;
+}
+.admin_btn{
+  background-color: black;
+  width: 297px;
+  margin-top: 100px;
+  height: 64px;
+  border: 2px solid black;
+  color: aliceblue;
+}
+.manager_btn{
+  background-color: black;
+  width: 297px;
+  margin-top: 10px;
+  height: 64px;
+  border: 2px solid black;
+  color: aliceblue;
+}
+.user_btn{
+  background-color: black;
+  width: 297px;
+  margin-top: 10px;
+  height: 64px;
+  border: 2px solid black;
+  color: aliceblue;
+}
+.avatar_img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 94px;
+  margin-top: 47px;
+}

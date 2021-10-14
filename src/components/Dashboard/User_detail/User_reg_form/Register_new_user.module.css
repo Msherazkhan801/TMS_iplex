@@ -1,0 +1,62 @@
+.signUpPage {
+   
+ 
+}
+  .signUpWrap {
+    padding: 57px 65px;
+    padding-bottom: 65px;
+    font-weight: 400;
+    font-size: 5px;
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow:inset -1px 13px 20px 20px rgb(0 0 0 / 15%)
+     /* 0px 8px 20px 0px rgb(0 0 0 / 15%); */
+    
+  }
+  .signUpWrap h2 {
+    font-size: 24px;
+    color: #525252;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .signUpWrap form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signUpWrap form input {
+    max-width: 100%;
+    margin: 15px auto;
+    border: 2px solid #000000;
+    padding: 10px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+    border-radius: 5px;
+  }
+  .signUpWrap button {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 50px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background: #030303;
+    border: unset;
+    border-radius: 22px;
+    margin-top: 30px;
+  }
+  .signUpWrap button:hover{
+    background-color: blue;
+  }

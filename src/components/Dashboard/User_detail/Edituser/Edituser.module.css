@@ -1,0 +1,39 @@
+.formWrap{
+    width: 40%;
+    margin: 0 auto;
+    padding: 85px 45px 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 30px;   
+border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   
+}
+input{
+    height: 50px;
+   
+}
+.inputField{
+    border-radius: 10px;
+    background-color: #85a19f;
+    color: rgb(0, 0, 0);
+}
+.inputField::placeholder{
+    color: rgb(33, 4, 163);
+    opacity: .5;
+}
+.inputField:focus{
+    background-color: transparent;
+    color: rgb(13, 0, 202);
+}
+.signUpButton{
+    padding: 0;
+    background: rgb(43, 42, 42);
+    padding: 5px 17px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+}

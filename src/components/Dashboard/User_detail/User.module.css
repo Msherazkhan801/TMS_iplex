@@ -1,0 +1,227 @@
+.user_detail_section{
+  display: flex;
+ margin-left: 22px;
+}
+.loginWrap {
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0px;
+  margin-left: auto;
+  
+  margin-top: 12px;
+}
+.loginWrap span {
+  font-size: 30px;
+  color: #4b2354;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 37px;
+  border-radius: 5px;
+}
+.loginWrap input {
+  font-size: 10px;
+  color: #3106ee;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  padding: 0 20px 0 23px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 10px;
+}
+
+.loginWrap form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginWrap .signInBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 160px;
+  height: 50px;
+  background-color: #030303;
+  border-radius: 25px;
+  border: unset;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.signInBtn:hover{
+  background-color: rgb(25, 3, 221);
+  border: 2px solid rgb(227, 227, 230);
+}
+.loginWrap form input,
+.loginWrap form label {
+  margin-bottom: 60px;
+}
+/* ====================== */
+.card_manger{
+    background-color: rgb(252, 187, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 300px;
+    height: 425px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 1px solid goldenrod;
+    border-radius: 21px
+  }
+  .user_detail{
+    font-size: 15px;
+    text-align: center;
+  }
+  .userwork{
+    margin-top: 20px;
+  }
+  .btn_form{
+    background-color: yellowgreen;
+    border-radius: 49px;
+    width: 78px;
+    margin-top: 21px;
+  }
+  .btn_form1{
+    background-color: rgb(255, 0, 0);
+    border-radius: 49px;
+    margin-top: 21px;
+    margin-left: 2px;
+  }
+
+  .form{
+    margin-left: 22px;
+  }
+  /* ==================== */
+  .main_form_body{
+    margin-left: 70px;
+    width: 90%;
+    margin-top: 22px
+   
+}
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .th {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background-color: black;
+    font-size: 15px;
+    
+  }
+  
+  .th1 {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+    width: 110px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background-color: black;
+    font-size: 15px;
+    
+  }
+.table_mange {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    
+  }
+  .table_mange_red {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+    background-color: red;
+    color: rgb(247, 243, 243);
+    font-weight: 400;
+    font-size: 15px;
+    
+  }
+  .tr:nth-child(even) {
+    background-color: #464545;
+  }
+  .btn{
+      background-color: rgb(0, 155, 83);
+      font-size: 15px;
+      color: white;
+      font-weight: bold;
+      width: 71px;
+      border-radius: 4px;
+  }
+
+  .table_btn {
+    border: 1px solid #111111;
+    padding: 4px;  
+    text-align: left;
+    color: black;
+   
+  }
+  .search{
+  
+    border: 2px solid rgb(12, 12, 37);
+    border-radius: 12px;
+    font-size: 15px;
+    height: 31px;
+ 
+ }
+ .search_div{
+   margin-left: 142px;
+   margin-top: 37px;
+   font-weight: bold;
+   font-size: 25px;
+ }
+ .searchbar{
+   display: flex;
+   justify-content: center;
+ }
+ .background{
+   background: rgb(255, 0, 0);
+   color: white;
+ }
+ .list.hours{
+   background: rgb(255, 8, 8);
+   color: white;
+ }
+ .searchbtn{
+   margin-left: 22px;
+   font-size: 20px;
+   background-color: green;
+   color: white;
+   border-radius: 12px;
+   border: 2px dotted white;
+ }
+
+ .index {
+   background-color: red;
+ }
+ .h2{
+  font-style: oblique;
+  margin-top: 10px;
+  text-align: center;
+  background-color: green;
+  color: white;
+   }

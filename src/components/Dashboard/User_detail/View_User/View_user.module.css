@@ -1,0 +1,97 @@
+.main_form_body{
+  padding: 0%;
+   
+}
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 82px;
+  }
+  
+  .th {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background-color: black;
+    font-size: 15px;
+    
+  }
+  .th1 {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background-color: black;
+    font-size: 15px;
+    width: 1px;
+  }
+.table_mange {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    
+  }
+
+  .tr:nth-child(even) {
+    background-color: #464545;
+  }
+  .btn{
+      background-color: blue;
+      font-size: 15px;
+      color: white;
+      margin-left: 15px;
+   width: 60px;
+  }
+  .btn1{
+    background-color:  crimson;
+    font-size: 15px;
+    color: white;
+    height: 29px;
+
+    margin-left: 20px;
+    width: 60px;
+   
+}
+  .table_btn {
+    border: 1px solid #111111;
+    padding: 6px;
+    display: flex;
+    
+    
+  }
+  .search{
+  
+     border: 2px solid rgb(12, 12, 37);
+     border-radius: 12px;
+     font-size: 15px;
+     height: 31px;
+  
+  }
+  .search_div{
+    margin-left: 502px;
+    margin-top: 37px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .h2{
+ font-style: oblique;
+ margin-top: 10px;
+ text-align: center;
+ background-color: green;
+ color: white;
+  }
+  .pagination{
+    width: 30%;
+    margin: auto;
+    display: flex;
+  }
+ .icon_mr{
+   margin-left: 191px;
+ }

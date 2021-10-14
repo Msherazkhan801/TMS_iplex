@@ -1,0 +1,46 @@
+.card_manger{
+ display: flex;
+  margin: auto;
+  margin-left: 222px;
+  color: white;
+  }
+ 
+  .user_detail{
+    font-size: 15px;
+    text-align: center;
+  }
+  .userwork{
+    margin-top: 20px;
+  }
+  .btn_form{
+    background-color: #0022c2;
+    border-radius: 10px;
+    width: 178px;
+    font-size: 22px;
+    margin-left: 232px;
+    height: 30px;
+    padding-bottom: 31px;
+    text-align: center;
+    margin-top: 26px;
+  }
+  .btn{
+    background-color: #0022c2;
+    border-radius: 10px;
+    width: 178px;
+    font-size: 22px;
+    margin-left: 22px;
+    height: 30px;
+    padding-bottom: 31px;
+    text-align: center;
+    margin-top: 26px;
+  }
+ .transiction{
+  margin-left: 168px;
+    margin-top: -15px
+ }
+ .txt{
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 23px;
+  color: rgb(0, 0, 0);
+ }

@@ -1,0 +1,109 @@
+.user_detail_section{
+    display: flex;
+   margin-left: 22px;
+  }
+  .loginWrap {
+    width: 350px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-left: 450px;
+    margin-top: 23px;
+    
+    margin-top: 12px;
+  }
+  .loginWrap span {
+    font-size: 30px;
+    color: #4b2354;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 37px;
+    border-radius: 5px;
+  }
+  .loginWrap input {
+    font-size: 20px;
+    color: #3106ee;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    padding: 0 20px 0 23px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+  }
+  
+  .loginWrap form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .loginWrap .subBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 130px;
+    height: 40px;
+    background-color: #030303;
+    border-radius: 25px;
+    border: unset;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+  .subBtn:hover{
+    background-color: rgb(25, 3, 221);
+    border: 2px solid rgb(227, 227, 230);
+  }
+  .loginWrap form input,
+  .loginWrap form label {
+    margin-bottom: 60px;
+  }
+  .btn_wraper{
+display: flex;
+width: 310px;
+text-align: center;
+margin-left: 20px;
+
+  }
+  .Btn{
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 130px;
+    height: 40px;
+    background-color: #030303;
+    border-radius: 25px;
+    border: unset;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+  .Btn:hover{
+    background-color: rgb(14, 8, 66);
+    border: 2px solid rgb(227, 227, 230);
+  }
+  .logheader{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 70px;
+    color: white;
+    padding-top: 14px;
+    text-align: center;
+  }
