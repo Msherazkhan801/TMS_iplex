@@ -88,7 +88,8 @@
   }
   .inputmodal2{
     height: 34px;
-    width: auto;
+    width: 240px;
+    margin-right: 99px;
     margin-top: 25px;
     border-radius: 7px;
   }

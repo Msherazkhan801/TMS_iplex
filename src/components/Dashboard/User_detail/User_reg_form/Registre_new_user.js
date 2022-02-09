@@ -15,7 +15,7 @@ const Registre_new_user=()=> {
         email: "",
         password: "",
         password_confirmation: "",
-        UserType:"User"
+        userType:"user"
       
         
       })

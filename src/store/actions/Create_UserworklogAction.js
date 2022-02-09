@@ -12,7 +12,7 @@ axios({
  .then(function (response) {
       const data = response.data
       alert(" Worklog Create successfully")
-      console.log("gdfhfgfhghgg",data)
+    console.log(data)
     
    })
    .catch(function ( {response} ) {
